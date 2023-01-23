@@ -1,0 +1,6 @@
+cp -rp {dir1/,dir2/,...} destination
+
+	-> only if you're already in the source directory.
+	-> -r --> recursive -p --> keep the permissions
+implement the same for files but remove -r option.
+source: https://askubuntu.com/questions/327282/copying-multiple-specific-files-from-one-folder-to-another#:~:text=The%20syntax%20uses%20the%20cp,no%20spaces%20between%20the%20files.

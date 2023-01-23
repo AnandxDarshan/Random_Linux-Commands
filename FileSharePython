@@ -1,0 +1,5 @@
+
+python3 -m http.server
+
+	onyone on the same network can type ip of the machine we used to start a python http server ( typically at port 8000 ), followed by port will have to access to the files on the system ( that is running the http server ).
+

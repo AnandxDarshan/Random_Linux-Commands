@@ -1,0 +1,198 @@
+Vim help files homepage:  https://vimhelp.org/ 
+
+Vim cheat-sheet:  https://cheatography.com/typo209/cheat-sheets/comprehensive-vim-cheat-sheet/ 
+
+Vim is a full featured text editor. 
+
+ 
+
+It is so vast, that a video as long as this entire course can be made on it. 
+
+ 
+
+Vim is modal editor (mode-based). 
+
+ 
+
+Vim has three modes: 
+
+Command (default) 
+
+Input (insert) 
+
+Last-line 
+
+ 
+
+Important options in vim: 
+
+ 
+
+:i  enter --> to enter in insert mode. ( this is an overview , better options are discussed below). 
+
+ 
+
+:q enter --> to quit the editor. 
+
+ 
+
+:wq enter --> write(save) then quit the editor. 
+
+ 
+
+:q! enter --> quit without saving 
+
+ 
+
+ 
+
+ 
+
+Explaining some stuff about vim: 
+
+ 
+
+When we start the vim, it is in command mode. That means whatever we press or write will be considered as command and will not be inserted in the file. 
+
+ 
+
+Vim has lots of commands. 
+
+ 
+
+Finding text (search) 
+
+It uses similar syntax to that of less command. i.e., a forward slash followed by the text we want to search : /search_text + enter 
+
+ 
+
+
+ 
+
+Then we can use can use the following for next/previous appearance of the text in the file: 
+
+Lower-case n ( n ) --> next appearance. 
+
+Upper-case n (N) --> previous appearance 
+
+ 
+
+ 
+
+Moving cursor in the vim 
+
+ 
+
+l  -->  moves cursor to right 
+
+k --> moves cursor  to up 
+
+j -->  moves cursor to down 
+
+h --> moves cursor to left 
+
+ 
+
+0 --> moves cursor  to the beginning of the line. 
+
+$ --> moves cursor to the end of the line. 
+
+ 
+
+:line_number --> moves cursor to the line. 
+
+ 
+
+gg  --> top beginning 
+
+G --> end 
+
+ 
+
+Ctrl + b --> move up a screen ( pageUp ) 
+
+Ctrl + f --> move down a screen ( pageDown ) 
+
+ 
+
+ 
+
+Important 
+
+ 
+
+To start inserting text in the file, we need to switch from command mode ( the default mode ) to the insert mode : 
+
+ 
+
+i --> let us start inserting text before the cursor's position. 
+
+ 
+
+Esc --> to exit out of insert mode back to command mode. 
+
+ 
+
+a --> to start inserting text after the cursor's position. 
+
+ 
+
+x --> deletes the text that the cursor is on. 
+
+ 
+
+u --> undo 
+
+ 
+
+Ctrl + r --> redo 
+
+ 
+
+r --> to replace the letter from some other. 
+
+ 
+
+dd --> to delete the entire line. 
+
+ 
+
+5dd --> deletes 5 lines from the current line. 
+
+ 
+
+ 
+
+Vim also has cut, copy and paste features, but for that we'll need to enter in visual mode: 
+
+v --> visual mode. 
+
+ 
+
+Use arrow keys to select the text. 
+
+ 
+
+y (yank) --> to copy selected. 
+
+ 
+
+p  --> to paste after the cursor's position. 
+
+ 
+
+P --> to paste before the cursor's position. 
+
+ 
+
+Cutting ( first get in visual mode, then select the text ) 
+
+d --> to cut selected. 
+
+p/P --> to paste ( same as earlier ). 
+
+ 
+
+*As
+
+*

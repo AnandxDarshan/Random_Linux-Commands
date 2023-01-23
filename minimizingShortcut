@@ -1,0 +1,8 @@
+
+windows/super key + the number order of minimized task.
+
+	for eg:
+	if there's a taskbar with terminal at fourth position from left then we would press:
+		windows(SUPER) + 4 ----> TO OPEN or MINIMIZE the fourth tab on the taskbar (i.e., terminal - in our case).
+
+--------------------------------------------

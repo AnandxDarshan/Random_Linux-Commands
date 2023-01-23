@@ -1,0 +1,8 @@
+
+ufw ( uncomplicated firewall )  --> can be used to open and close ports
+
+sudo ufw status
+sudo ufw status verbose
+
+Source Link: https://www.digitalocean.com/community/tutorials/ufw-essentials-common-firewall-rules-and-commands
+

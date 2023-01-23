@@ -1,0 +1,54 @@
+
+xdotool --> the tool used to simulate key presses and can be used in the shell scripts.
+
+Source Link: https://dev.to/lambdamamba/using-xdotool-to-randomise-gathertown-avatar-movements-2p51
+------------------
+
+xdotool click 3 --> simulates the third button click on the mouse (i.e., the right click ).
+
+------------------
+
+typing:
+
+	xdotool type --delay 500 "Hello Anand"
+		--> will type each letter with a delay of 500
+
+------------------
+
+Presssing ctrl for a specified time:
+
+	xdotool keydown ctrl --> presses the cotrol key
+	
+	sleep 5 --> keeps the ctrl pressed
+	
+	xdotool keyup ctrl --> releases the ctrl key.
+
+-------------------
+
+	ENTER 
+
+	xdotool keydown Return
+	xdotool keyup Return
+
+
+	can also be chained: xdotool keydown Return keyup Return
+
+
+	xdotool key Return --> we use key command with the keycode 'Return' or 'KP_Enter' (for key ENTER press):
+	
+	xdotool key KP_Enter
+
+---
+
+---------------------
+xdotool type "`echo -ne '\n'`"
+	
+	--> it types the characters.
+
+
+You can also use the key command to simulate the press and release of multiple keys at once.
+For example, to simulate the press and release of the "ctrl" and "c" keys:
+
+Copy code
+xdotool key ctrl+c
+

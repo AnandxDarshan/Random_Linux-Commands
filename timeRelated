@@ -1,0 +1,7 @@
+timedatectl --> is the utility to handle time and date related stuff.
+
+timedatectl set-local-rtc 0 --adjust-system-clock --> to set to default(I guess)
+
+timedatectl set-local-rtc 1 --adjust-system-clock --> tse ...
+
+search and learn about it on your own..

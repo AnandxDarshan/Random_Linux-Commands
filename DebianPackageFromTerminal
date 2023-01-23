@@ -1,0 +1,4 @@
+sudo dpkg -i absolute_path_of_debian_package(.deb)
+
+possibly run the following after the upper:
+sudo apt-get install -f
