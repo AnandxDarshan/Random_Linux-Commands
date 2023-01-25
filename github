@@ -1,0 +1,27 @@
+----The aim is to create a repo of a local directory then commit and push the contents without leaving the terminal----
+
+I'm going to use apt package manager while describing or mentioning the command, you will have to find your package manager (yours could be anything from yum, pacman or etc ) and the syntax it follows on your own.
+
+
+if not installed ( install the gh utility : as usual, for debian; the command is: sudo apt install gh -y )
+
+gh auth login --> setup your github CLI
+
+sudo apt install git ( if not installed already )
+
+first navigate to the directory that you want to create a repo of on github.
+
+Important commands:
+------------------
+1> git init
+
+2> gh repo create "Repo_name_that_you_want" --public (or --private)
+	- creates the repo either visible pubically or private, based on the option mentioned in the command.
+
+3> git remote add origin git@github.com:github-Username/Repo_name_that_you_defined_earlier.git
+
+4> git add .
+
+5> git commit -m "commit description"
+
+6> git push -u origin master
