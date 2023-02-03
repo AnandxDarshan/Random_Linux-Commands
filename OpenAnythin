@@ -3,3 +3,9 @@ kde-open --> for kde environment desktop
 gnome-open
 xdg-open --> generic version
 
+another simple command would be:
+
+open followed by the filename.
+
+eg.> open index.htm
+
