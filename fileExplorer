@@ -3,4 +3,7 @@ to open file explorer.
 
 dolphin is another file explorer that can be used.
 
+in linux mint:
+	cinnamon -> default - we have nemo
+	just nemo followed by path that you want to open, opens the directory through the terminal.
 
